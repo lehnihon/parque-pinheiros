@@ -1,0 +1,24 @@
+#footer{
+    background-color:#f7f9f9;
+    padding-top:6rem;
+    padding-bottom:3rem;
+    color:#2f2f2f;
+    .redes-bottom{
+        margin-bottom:5rem;
+        i{
+            font-size:1.5rem;
+            color:#2f2f2f;
+            &:hover{
+                color:#00df77;
+            }
+        }
+    }
+    
+    a{
+        font-weight: bold;
+        color:#2f2f2f;
+        &:hover{
+            color:#00df77;
+        }
+    }
+}

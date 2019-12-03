@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Beth Ellen";
+  src: url("assets/fonts/Beth-Ellen-2.0.otf");
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+  color:#898989;
+  font-size:16px;
+}
+
+a{
+  &:hover{
+    text-decoration: none;
+  }
+}
+
+h1,h2,h3,h4,h5{
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  color:#2d2a2a;
+}
+
+.green{
+  color:#438e44;
+}
+
+.btn-green{
+  background-color:#438e44;
+  border:1px solid #438e44;
+  color:#FFF;
+  padding:.25rem 1.5rem;
+  &:hover{
+    background-color:transparent;
+    color:#438e44;
+  }
+}

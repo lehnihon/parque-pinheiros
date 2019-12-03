@@ -1,0 +1,69 @@
+#header{
+  background-image: url("assets/img/background.jpg");
+  background-repeat: no-repeat;
+  background-color:#000;
+  background-position: center center;
+  height:1660px;
+  position:relative;
+  .logo{
+    max-width: 300px;
+  }
+  nav{
+    .navbar-nav{
+      .nav-item{
+        .nav-link{
+          padding-left:0.75rem;
+          padding-right:0.75rem;
+          color:#3e6d76;
+          font-weight: 500;
+          font-size:14px;
+          &:hover{
+            color:#527c5a;
+          }
+        }
+      }
+      .btn-loja{
+        background-color:#db7100;
+        border:1px solid #db7100;
+        margin-left:1rem;
+        .nav-link{
+          color:#FFF;
+          &:hover{
+            background-color:#FFF;
+            color:#db7100;
+          }
+        }
+      }
+    }
+  }
+  .banner{
+    h1{
+      font-family: 'Beth Ellen', sans-serif;
+      color:#2e4252;
+    }
+    
+  }
+
+  .local{
+    position:absolute;
+    width:80px;
+    .plus{
+      &:hover{
+        cursor: pointer;
+      }
+    }
+    .box-local{
+      display:none;
+      position:absolute;
+      background-color:#FFF;
+      width:250px;
+      padding:.75rem;
+    }
+  }
+  .velorio{
+    .box-local{
+      top: -150px;
+      right: 90px;
+    }
+  }
+}

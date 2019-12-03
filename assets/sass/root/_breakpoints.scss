@@ -1,0 +1,16 @@
+@include media-breakpoint-down(md) {
+    #home-contato{
+        background:#02d372 !important;
+    }
+    .btn-enviar{
+        background-color:#000 !important;
+        border:1px solid #000!important;
+        color:#01d774 !important;
+        &:hover{
+            background-color:#01d774 !important;
+            color:#000 !important;
+        }
+    }
+}
+
+
