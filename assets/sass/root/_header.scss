@@ -36,7 +36,33 @@
       }
     }
   }
+
+  .nav-bottom{
+    color:#3e6d76;
+    font-weight: 500;
+    font-size:14px;
+    a{
+      position: relative;
+      i{
+        color:#3e6d76;
+        font-size:14px;
+      }
+      .qtd{
+        position: absolute;
+        background-color:#FFF;
+        border-radius: 50%;
+        font-size:.5rem;
+        top:-5px;
+        right:-5px;
+        color:#635e9f;
+        width:12px;
+        text-align:center;
+      }
+    }
+  }
+
   .banner{
+    padding-top:5rem;
     h1{
       font-family: 'Beth Ellen', sans-serif;
       color:#2e4252;
@@ -58,12 +84,74 @@
       background-color:#FFF;
       width:250px;
       padding:.75rem;
+      z-index:10;
+      img{
+        margin-bottom:1rem;
+      }
+      h5{
+        margin-bottom:1rem;
+        font-weight:600;
+        font-size:14px;
+        text-align:center;
+      }
+      p{
+        text-align:center;
+        font-size:14px;
+      }
     }
-  }
-  .velorio{
-    .box-local{
-      top: -150px;
-      right: 90px;
+
+    &.velorio{
+      top:870px;
+      left:630px;
+      .box-local{
+        top: -150px;
+        right: 90px;
+      }
+    }
+  
+    &.loja{
+      top:1250px;
+      left:400px;
+      .box-local{
+        top: -150px;
+        left: 60px;
+      }
+    }
+
+    &.estacionamento{
+      top:1100px;
+      left:950px;
+      .box-local{
+        top: -150px;
+        right: 90px;
+      }
+    }
+
+    &.capela{
+      top:900px;
+      left:1050px;
+      .box-local{
+        top: -150px;
+        right: 90px;
+      }
+    }
+
+    &.velario{
+      top:740px;
+      left:770px;
+      .box-local{
+        top: -150px;
+        right: 90px;
+      }
+    }
+
+    &.portaria{
+      top:1080px;
+      left:220px;
+      .box-local{
+        top: -150px;
+        left: 60px;
+      }
     }
   }
 }

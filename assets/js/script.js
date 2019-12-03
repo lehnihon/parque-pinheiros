@@ -9,4 +9,21 @@
             $(this).parent().find('.box-local').css('display','none');
         }
     });
+
+    var owl = $(".owl-banner");
+    owl.owlCarousel({
+        loop:true,
+        margin:10,
+        responsiveClass:true,
+        touchDrag: false,
+        mouseDrag: false,
+        responsive:{
+            0:{
+                items:1,
+            },
+            900:{
+                items:1,
+            }
+        }
+    });
 })(jQuery);

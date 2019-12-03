@@ -53,17 +53,103 @@
           </ul>
         </div>
       </nav>
-      <div class="banner">
-        <h1>Prevenir é <span class="green">sempre</span> a melhor escolha!</h1>
-        <h2>EDUCAÇÃO FINANCEIRA</h2>
+      <div class="row nav-bottom justify-content-end">
+        <div class="col-auto">
+          <strong>Atendimento 24h: </strong>(11) 2241-0300 / (11) 5627-6910 
+        </div>
+        <div class="col-auto">
+          <a href="#"><i class="fas fa-user"></i></a>
+        </div>
+        <div class="col-auto">
+          <a href="#">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="qtd">1</span>
+          </a>
+        </div>
+      </div>
+      <div class="banner owl-theme owl-banner owl-carousel">
+        <div class="p-2">
+          <h1>Prevenir é<br> <span class="green">sempre</span> a melhor escolha!</h1>
+          <p class="mt-4 mb-5">Jazigos com 3 e 6 gavetas com ou sem área de serviço.</p>
+
+          <a class="btn-green" href="#">SAIBA MAIS <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="p-2">
+          <h1>Prevenir é<br> <span class="green">sempre</span> a melhor escolha!</h1>
+          <p class="mt-4 mb-5">Jazigos com 3 e 6 gavetas com ou sem área de serviço.</p>
+
+          <a class="btn-green" href="#">SAIBA MAIS <i class="fas fa-arrow-right"></i></a>
+        </div>
       </div>
       <div class="local velorio">
         <img class="plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/plus.png"; ?>"/>
         <div class="box-local">
           <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/foto.jpg"; ?>"/>
           <h5>Salas de Velório</h5>
+          <p class="pb-3">03 Salas de velório com cadeiras confortáveis para seus entes queridos com apoio e segurança 24 horas por nossos profissionais.</p>
+          <p>
+            <a class="btn-orange" href="#">MAIS DETALHES</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="local loja">
+        <img class="plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/plus.png"; ?>"/>
+        <div class="box-local">
+          <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/foto.jpg"; ?>"/>
+          <h5>Loja</h5>
           <p>03 Salas de velório com cadeiras confortáveis para seus entes queridos com apoio e segurança 24 horas por nossos profissionais.</p>
-          <a class="btn-orange" href="#">MAIS DETALHES</a>
+          <p>
+            <a class="btn-orange" href="#">MAIS DETALHES</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="local estacionamento">
+        <img class="plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/plus.png"; ?>"/>
+        <div class="box-local">
+          <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/foto.jpg"; ?>"/>
+          <h5>Estacionamento</h5>
+          <p>03 Salas de velório com cadeiras confortáveis para seus entes queridos com apoio e segurança 24 horas por nossos profissionais.</p>
+          <p>
+            <a class="btn-orange" href="#">MAIS DETALHES</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="local capela">
+        <img class="plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/plus.png"; ?>"/>
+        <div class="box-local">
+          <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/foto.jpg"; ?>"/>
+          <h5>Capela</h5>
+          <p>03 Salas de velório com cadeiras confortáveis para seus entes queridos com apoio e segurança 24 horas por nossos profissionais.</p>
+          <p>
+            <a class="btn-orange" href="#">MAIS DETALHES</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="local velario">
+        <img class="plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/plus.png"; ?>"/>
+        <div class="box-local">
+          <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/foto.jpg"; ?>"/>
+          <h5>Velário</h5>
+          <p>03 Salas de velório com cadeiras confortáveis para seus entes queridos com apoio e segurança 24 horas por nossos profissionais.</p>
+          <p>
+            <a class="btn-orange" href="#">MAIS DETALHES</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="local portaria">
+        <img class="plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/plus.png"; ?>"/>
+        <div class="box-local">
+          <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/foto.jpg"; ?>"/>
+          <h5>Portaria</h5>
+          <p>03 Salas de velório com cadeiras confortáveis para seus entes queridos com apoio e segurança 24 horas por nossos profissionais.</p>
+          <p>
+            <a class="btn-orange" href="#">MAIS DETALHES</a>
+          </p>
         </div>
       </div>
     </div>

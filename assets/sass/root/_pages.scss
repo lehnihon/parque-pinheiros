@@ -1,53 +1,62 @@
-#home-sobre{
-    padding:6rem 0;
-   h2{
-       color:#02d472;
-       font-size:3rem;
-       text-align:center;
-       &:after{
-            content: ' \25CF';
-            color:#02d472;
-            font-size:2rem;
-            display:block;
-            margin:.75rem 0;
+#content{
+   .home-options{
+       margin-bottom:6rem;
+       .box{
+            background-color:#FFF;
+            padding:3rem;
+            text-align:center;
+            h5{
+                font-size:1rem;
+                color:#898989;
+                text-align:center;
+                font-weight: normal;
+                margin-bottom:1rem;
+            }
+
+            h2{
+                color:#2d2a2a;
+                font-weight: bold;
+                text-align:center;
+                margin-bottom:1rem;
+            }
+
+            a{
+                color:#2d2a2a;
+                display:inline-block;
+                margin-top:3rem;
+                font-size:1.125rem;
+                padding-bottom:.25rem;
+                font-weight: 600;
+                border-bottom:3px solid #FFF;
+                &:hover{
+                    border-bottom:3px solid #438e44;
+                }
+            }
        }
    }
-   p{
-       font-weight: 500;
+   .home-galeria{
+       margin-bottom:6rem;
    }
-}
-#home-contato{
-    background: linear-gradient(90deg, #02d472 50%, #282727 50%);
-    padding:6rem 3rem;
-    font-size:1.25rem;
-    h2{
-        color:#000;
-        font-size:3rem;
-        margin-bottom:3rem;
-    }
-    .form-control{
-        background-color:#202020;
-        border:1px solid #f3f3f3;
-        padding:.5rem 1rem;
-        color:#FFF;
-        font-size:1.25rem;
-        border-radius:0;
-        &::placeholder{
-            color:#FFF;
-            font-size:1.25rem;
-        }   
-    }
-    .btn-enviar{
-        background-color:#01d774;
-        border:1px solid #01d774;
-        padding:.25rem .5rem;
-        font-size:1.25rem;
-        color:#000;
-        font-weight: 900;
-        border-radius:0;
-        &:hover{
-            background-color:#000;
-            color:#01d774;
-        }
-    }
+   .home-produtos{
+       h2{
+           margin-bottom:0;
+           color:#FFF;
+       }
+       .cat{
+           list-style-type: none;
+           padding:0;
+           margin-bottom:0;
+           padding-top:.5rem;
+           li{
+               display:inline-block;
+               margin-left:1.5rem;
+               a{
+                   color:#FFF;
+                   font-size:.875rem;
+                   &:hover{
+                   }
+               }
+           }
+       }
+   }
 }

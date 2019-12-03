@@ -9897,6 +9897,7 @@ body {
   font-family: 'Lato', sans-serif;
   color: #898989;
   font-size: 16px;
+  background-color: #357d58;
 }
 
 a:hover {
@@ -9917,12 +9918,24 @@ h1, h2, h3, h4, h5 {
   background-color: #438e44;
   border: 1px solid #438e44;
   color: #FFF;
-  padding: .25rem 1.5rem;
+  padding: .5rem 1.5rem;
 }
 
 .btn-green:hover {
   background-color: transparent;
   color: #438e44;
+}
+
+.btn-orange {
+  background-color: #ce6b03;
+  border: 1px solid #ce6b03;
+  color: #FFF;
+  padding: .5rem 1.5rem;
+}
+
+.btn-orange:hover {
+  background-color: transparent;
+  color: #ce6b03;
 }
 
 .menu-hamb {
@@ -10049,6 +10062,37 @@ h1, h2, h3, h4, h5 {
   color: #db7100;
 }
 
+#header .nav-bottom {
+  color: #3e6d76;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+#header .nav-bottom a {
+  position: relative;
+}
+
+#header .nav-bottom a i {
+  color: #3e6d76;
+  font-size: 14px;
+}
+
+#header .nav-bottom a .qtd {
+  position: absolute;
+  background-color: #FFF;
+  border-radius: 50%;
+  font-size: .5rem;
+  top: -5px;
+  right: -5px;
+  color: #635e9f;
+  width: 12px;
+  text-align: center;
+}
+
+#header .banner {
+  padding-top: 5rem;
+}
+
 #header .banner h1 {
   font-family: 'Beth Ellen', sans-serif;
   color: #2e4252;
@@ -10069,74 +10113,148 @@ h1, h2, h3, h4, h5 {
   background-color: #FFF;
   width: 250px;
   padding: .75rem;
+  z-index: 10;
 }
 
-#header .velorio .box-local {
+#header .local .box-local img {
+  margin-bottom: 1rem;
+}
+
+#header .local .box-local h5 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+}
+
+#header .local .box-local p {
+  text-align: center;
+  font-size: 14px;
+}
+
+#header .local.velorio {
+  top: 870px;
+  left: 630px;
+}
+
+#header .local.velorio .box-local {
   top: -150px;
   right: 90px;
 }
 
-#home-sobre {
-  padding: 6rem 0;
+#header .local.loja {
+  top: 1250px;
+  left: 400px;
 }
 
-#home-sobre h2 {
-  color: #02d472;
-  font-size: 3rem;
+#header .local.loja .box-local {
+  top: -150px;
+  left: 60px;
+}
+
+#header .local.estacionamento {
+  top: 1100px;
+  left: 950px;
+}
+
+#header .local.estacionamento .box-local {
+  top: -150px;
+  right: 90px;
+}
+
+#header .local.capela {
+  top: 900px;
+  left: 1050px;
+}
+
+#header .local.capela .box-local {
+  top: -150px;
+  right: 90px;
+}
+
+#header .local.velario {
+  top: 740px;
+  left: 770px;
+}
+
+#header .local.velario .box-local {
+  top: -150px;
+  right: 90px;
+}
+
+#header .local.portaria {
+  top: 1080px;
+  left: 220px;
+}
+
+#header .local.portaria .box-local {
+  top: -150px;
+  left: 60px;
+}
+
+#content .home-options {
+  margin-bottom: 6rem;
+}
+
+#content .home-options .box {
+  background-color: #FFF;
+  padding: 3rem;
   text-align: center;
 }
 
-#home-sobre h2:after {
-  content: ' \25CF';
-  color: #02d472;
-  font-size: 2rem;
-  display: block;
-  margin: .75rem 0;
+#content .home-options .box h5 {
+  font-size: 1rem;
+  color: #898989;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 1rem;
 }
 
-#home-sobre p {
-  font-weight: 500;
+#content .home-options .box h2 {
+  color: #2d2a2a;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
-#home-contato {
-  background: linear-gradient(90deg, #02d472 50%, #282727 50%);
-  padding: 6rem 3rem;
-  font-size: 1.25rem;
+#content .home-options .box a {
+  color: #2d2a2a;
+  display: inline-block;
+  margin-top: 3rem;
+  font-size: 1.125rem;
+  padding-bottom: .25rem;
+  font-weight: 600;
+  border-bottom: 3px solid #FFF;
 }
 
-#home-contato h2 {
-  color: #000;
-  font-size: 3rem;
-  margin-bottom: 3rem;
+#content .home-options .box a:hover {
+  border-bottom: 3px solid #438e44;
 }
 
-#home-contato .form-control {
-  background-color: #202020;
-  border: 1px solid #f3f3f3;
-  padding: .5rem 1rem;
+#content .home-galeria {
+  margin-bottom: 6rem;
+}
+
+#content .home-produtos h2 {
+  margin-bottom: 0;
   color: #FFF;
-  font-size: 1.25rem;
-  border-radius: 0;
 }
 
-#home-contato .form-control::placeholder {
+#content .home-produtos .cat {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 0;
+  padding-top: .5rem;
+}
+
+#content .home-produtos .cat li {
+  display: inline-block;
+  margin-left: 1.5rem;
+}
+
+#content .home-produtos .cat li a {
   color: #FFF;
-  font-size: 1.25rem;
-}
-
-#home-contato .btn-enviar {
-  background-color: #01d774;
-  border: 1px solid #01d774;
-  padding: .25rem .5rem;
-  font-size: 1.25rem;
-  color: #000;
-  font-weight: 900;
-  border-radius: 0;
-}
-
-#home-contato .btn-enviar:hover {
-  background-color: #000;
-  color: #01d774;
+  font-size: .875rem;
 }
 
 #footer {
