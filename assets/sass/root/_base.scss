@@ -37,6 +37,18 @@ h1,h2,h3,h4,h5{
   }
 }
 
+.btn-green-b{
+  background-color:#83b735;
+  border:1px solid #83b735;
+  color:#FFF !important;
+  padding:.5rem 1.5rem;
+  &:hover{
+    background-color:transparent;
+    color:#83b735 !important;
+  }
+}
+
+
 .btn-orange{
   background-color:#ce6b03;
   border:1px solid #ce6b03;

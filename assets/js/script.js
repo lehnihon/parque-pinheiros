@@ -26,4 +26,30 @@
             }
         }
     });
+
+    var owlprod = $(".owl-produtos");
+    owlprod.owlCarousel({
+        loop:true,
+        margin:100,
+        responsiveClass:true,
+        touchDrag: false,
+        mouseDrag: false,
+        responsive:{
+            0:{
+                items:1,
+            },
+            900:{
+                items:3,
+            }
+        }
+    });
+    
+    $('.owl-produtos-e').on('click',function(e) {
+        e.preventDefault();
+        owlprod.trigger('next.owl.carousel');
+    });
+    $('.owl-produtos-d').on('click',function(e) {
+        e.preventDefault();
+        owlprod.trigger('prev.owl.carousel'); 
+    });
 })(jQuery);

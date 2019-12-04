@@ -9926,6 +9926,18 @@ h1, h2, h3, h4, h5 {
   color: #438e44;
 }
 
+.btn-green-b {
+  background-color: #83b735;
+  border: 1px solid #83b735;
+  color: #FFF !important;
+  padding: .5rem 1.5rem;
+}
+
+.btn-green-b:hover {
+  background-color: transparent;
+  color: #83b735 !important;
+}
+
 .btn-orange {
   background-color: #ce6b03;
   border: 1px solid #ce6b03;
@@ -10044,7 +10056,7 @@ h1, h2, h3, h4, h5 {
 }
 
 #header nav .navbar-nav .nav-item .nav-link:hover {
-  color: #527c5a;
+  color: #feee00;
 }
 
 #header nav .navbar-nav .btn-loja {
@@ -10063,6 +10075,7 @@ h1, h2, h3, h4, h5 {
 }
 
 #header .nav-bottom {
+  padding-right: 1rem;
   color: #3e6d76;
   font-weight: 500;
   font-size: 14px;
@@ -10134,7 +10147,7 @@ h1, h2, h3, h4, h5 {
 
 #header .local.velorio {
   top: 870px;
-  left: 630px;
+  left: 48%;
 }
 
 #header .local.velorio .box-local {
@@ -10144,7 +10157,7 @@ h1, h2, h3, h4, h5 {
 
 #header .local.loja {
   top: 1250px;
-  left: 400px;
+  left: 35%;
 }
 
 #header .local.loja .box-local {
@@ -10154,7 +10167,7 @@ h1, h2, h3, h4, h5 {
 
 #header .local.estacionamento {
   top: 1100px;
-  left: 950px;
+  left: 68%;
 }
 
 #header .local.estacionamento .box-local {
@@ -10164,7 +10177,7 @@ h1, h2, h3, h4, h5 {
 
 #header .local.capela {
   top: 900px;
-  left: 1050px;
+  left: 74%;
 }
 
 #header .local.capela .box-local {
@@ -10174,7 +10187,7 @@ h1, h2, h3, h4, h5 {
 
 #header .local.velario {
   top: 740px;
-  left: 770px;
+  left: 56%;
 }
 
 #header .local.velario .box-local {
@@ -10184,7 +10197,7 @@ h1, h2, h3, h4, h5 {
 
 #header .local.portaria {
   top: 1080px;
-  left: 220px;
+  left: 20%;
 }
 
 #header .local.portaria .box-local {
@@ -10193,6 +10206,7 @@ h1, h2, h3, h4, h5 {
 }
 
 #content .home-options {
+  margin-top: 3rem;
   margin-bottom: 6rem;
 }
 
@@ -10235,9 +10249,14 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 6rem;
 }
 
+#content .home-produtos {
+  margin-bottom: 6rem;
+}
+
 #content .home-produtos h2 {
   margin-bottom: 0;
   color: #FFF;
+  font-size: 2.5rem;
 }
 
 #content .home-produtos .cat {
@@ -10257,31 +10276,126 @@ h1, h2, h3, h4, h5 {
   font-size: .875rem;
 }
 
+#content .home-produtos .cat li a:hover {
+  color: #feee00;
+}
+
+#content .home-produtos .produtos-setas:hover {
+  cursor: pointer;
+}
+
+#content .home-produtos article {
+  text-align: center;
+}
+
+#content .home-produtos article img {
+  margin-bottom: 1rem;
+}
+
+#content .home-produtos article img:hover {
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+#content .home-produtos article h5 {
+  color: #FFF;
+  margin-bottom: .25rem;
+}
+
+#content .home-produtos article h5:hover {
+  color: #feee00;
+}
+
+#content .home-produtos article .post-cat {
+  color: #feee00;
+  margin-bottom: 1rem;
+}
+
+#content .home-produtos article .preco {
+  color: #FFF;
+}
+
+#content .home-sobre {
+  color: #FFF;
+  margin-bottom: 3rem;
+}
+
+#content .home-sobre h2 {
+  color: #FFF;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+#content .home-sobre h2 .green {
+  color: #83b735;
+}
+
+#content .home-sobre h5 {
+  color: #FFF;
+  font-weight: 600;
+}
+
+#content .home-sobre p {
+  font-size: .875rem;
+}
+
+#content .home-sobre .promocoes {
+  background: transparent;
+  border: 2px solid #FFF;
+  border-radius: 0;
+}
+
+#content .home-sobre .promocoes::placeholder {
+  color: #FFF;
+  font-size: .875rem;
+}
+
 #footer {
-  background-color: #f7f9f9;
   padding-top: 6rem;
-  padding-bottom: 3rem;
-  color: #2f2f2f;
+  padding-bottom: 6rem;
 }
 
-#footer .redes-bottom {
-  margin-bottom: 5rem;
+#footer p {
+  color: #FFF;
+  font-size: .875rem;
 }
 
-#footer .redes-bottom i {
-  font-size: 1.5rem;
-  color: #2f2f2f;
+#footer h5 {
+  color: #FFF;
+  font-size: .875rem;
+  margin-bottom: 1.25rem;
 }
 
-#footer .redes-bottom i:hover {
-  color: #00df77;
+#footer ul {
+  padding: 0;
+  list-style-type: none;
 }
 
-#footer a {
-  font-weight: bold;
-  color: #2f2f2f;
+#footer ul li {
+  margin-bottom: .5rem;
 }
 
-#footer a:hover {
-  color: #00df77;
+#footer ul li a {
+  color: #FFF;
+  font-size: .875rem;
+}
+
+#footer ul li a:hover {
+  color: #83b735;
+}
+
+#copy {
+  border-top: 1px solid #FFF;
+  padding: 2rem 0;
+  color: #FFF;
+  font-size: .875rem;
+}
+
+#copy a {
+  color: #FFF;
+}
+
+#copy a:hover {
+  color: #83b735;
 }

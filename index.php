@@ -4,7 +4,6 @@
   <div class="home-options">
     <div class="container">
       <div class="box">
-
         <div class="row">
           <div class="col-sm-6">
             <h5>JAZIGOS FAMILIARES PARA</h5>
@@ -28,10 +27,10 @@
   <div class="home-produtos">
     <div class="container">
       <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-5">
           <h2>Nossos Produtos</h2>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-5">
           <ul class="cat">
             <li><a href="#">COROAS</a></li>
             <li><a href="#">JAZIGOS</a></li>
@@ -39,35 +38,45 @@
           </ul>
         </div>
         <div class="col-auto ml-auto">
-          <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/btn-esq.jpg"; ?>"/>
+          <img class="img-fluid produtos-setas owl-produtos-e" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/btn-esq.jpg"; ?>"/>
         </div>
         <div class="col-auto">
-          <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/btn-dir.jpg"; ?>"/>
+          <img class="img-fluid produtos-setas owl-produtos-d" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/btn-dir.jpg"; ?>"/>
         </div>
       </div>
-      <div class="row">
+      <div class="row mb-6">
         <div class="col-sm-12">
           <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/separador.jpg"; ?>"/>
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-sm-3">
-          <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/jazigo.png"; ?>"/>
-          <h5>Jazigo Standart</h5>
-          <p class="cat">Jazigo</p>
-          <p class="preco">R$256,00</p>
-        </div>
-        <div class="col-sm-3">
-          <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/jazigo.png"; ?>"/>
-          <h5>Jazigo Standart</h5>
-          <p class="cat">Jazigo</p>
-          <p class="preco">R$256,00</p>
-        </div>
-        <div class="col-sm-3">
-          <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/jazigo.png"; ?>"/>
-          <h5>Jazigo Standart</h5>
-          <p class="cat">Jazigo</p>
-          <p class="preco">R$256,00</p>
+        <div class="col-sm-8">
+          <div class="owl-theme owl-produtos owl-carousel">
+            <article>
+              <a href="#">
+                <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/jazigo.png"; ?>"/>
+                <h5>Jazigo Standart</h5>
+                <p class="post-cat">Jazigo</p>
+                <p class="preco">R$256,00</p>
+              </a>
+            </article>
+            <article>
+              <a href="#">
+                <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/jazigo.png"; ?>"/>
+                <h5>Jazigo Standart</h5>
+                <p class="post-cat">Jazigo</p>
+                <p class="preco">R$256,00</p>
+              </a>
+            </article>
+            <article>
+              <a href="#">
+                <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/jazigo.png"; ?>"/>
+                <h5>Jazigo Standart</h5>
+                <p class="post-cat">Jazigo</p>
+                <p class="preco">R$256,00</p>
+              </a>
+            </article>
+          </div>
         </div>
       </div>
     </div>
@@ -76,34 +85,34 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-3">
-          <h2>Sobre o Cemitério</h2>
+          <h2><span class="green">Sobre o</span> Cemitério</h2>
         </div>
         <div class="col-sm-3">
-          <h5>NOSSA LOCALIZAÇÃO</h5>
+          <h5 class="mb-3">NOSSA LOCALIZAÇÃO</h5>
           <p>
-            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon1.jpg"; ?>"/>
+            <img class="mr-2" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon1.jpg"; ?>"/>
             Rua Ushikichi Kamiya, 71 - Jaçanã
           </p>
           <p>
-            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon2.jpg"; ?>"/>
+            <img class="mr-1" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon2.jpg"; ?>"/>
             Aberto 24h por dia, Todos os dias
           </p>
         </div>
         <div class="col-sm-3">
-          <h5>MAIS INFORMAÇÕES</h5>
+          <h5 class="mb-3">MAIS INFORMAÇÕES</h5>
           <p>
-            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon3.jpg"; ?>"/>
+            <img class="mr-2" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon3.jpg"; ?>"/>
             (11) 2241-0300 / (11) 5627-6910
           </p>
           <p>
-            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon4.jpg"; ?>"/>
+            <img class="mr-1" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon4.jpg"; ?>"/>
             contato@cemiterioparque.com.br
           </p>
         </div>
         <div class="col-sm-3">
-          <h5>RECEBA PROMOÇÕES</h5>
-          <input type="text" class="form-control" placeholder="Digite seu e-mail aqui...">
-          <a href="#" class="btn-green">RECEBER</a>
+          <h5 class="mb-3">RECEBA PROMOÇÕES</h5>
+          <input type="text" class="promocoes form-control mb-3" placeholder="Digite seu e-mail aqui...">
+          <a href="#" class="btn-green-b">RECEBER</a>
         </div>
       </div>
     </div>

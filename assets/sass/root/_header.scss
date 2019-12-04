@@ -18,7 +18,7 @@
           font-weight: 500;
           font-size:14px;
           &:hover{
-            color:#527c5a;
+            color:#feee00;
           }
         }
       }
@@ -38,6 +38,7 @@
   }
 
   .nav-bottom{
+    padding-right:1rem;
     color:#3e6d76;
     font-weight: 500;
     font-size:14px;
@@ -102,7 +103,7 @@
 
     &.velorio{
       top:870px;
-      left:630px;
+      left: 48%;
       .box-local{
         top: -150px;
         right: 90px;
@@ -111,7 +112,7 @@
   
     &.loja{
       top:1250px;
-      left:400px;
+      left: 35%;
       .box-local{
         top: -150px;
         left: 60px;
@@ -120,7 +121,7 @@
 
     &.estacionamento{
       top:1100px;
-      left:950px;
+      left: 68%;
       .box-local{
         top: -150px;
         right: 90px;
@@ -129,7 +130,7 @@
 
     &.capela{
       top:900px;
-      left:1050px;
+      left: 74%;
       .box-local{
         top: -150px;
         right: 90px;
@@ -138,7 +139,7 @@
 
     &.velario{
       top:740px;
-      left:770px;
+      left: 56%;
       .box-local{
         top: -150px;
         right: 90px;
@@ -147,7 +148,7 @@
 
     &.portaria{
       top:1080px;
-      left:220px;
+      left: 20%;
       .box-local{
         top: -150px;
         left: 60px;
