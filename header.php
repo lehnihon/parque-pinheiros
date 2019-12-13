@@ -11,6 +11,17 @@
 </head>
 
 <body>
+  <div class="social-media">
+    <a href="#">
+      <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/redes1.jpg"; ?>"/>
+    </a>
+    <a href="#">
+      <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/redes2.jpg"; ?>"/>
+    </a>
+    <a href="#">
+      <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/redes3.jpg"; ?>"/>
+    </a>
+  </div>
   <input id="localhost" type="hidden" value="<?php echo dirname( get_bloginfo('stylesheet_url')); ?>">
   <div id="header">
     <div class="container">

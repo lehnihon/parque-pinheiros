@@ -8,6 +8,16 @@
   .logo{
     max-width: 300px;
   }
+  .navbar-fixed{
+    background-color:#FFF;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    top: 0;
+    border-width: 0 0 1px;
+  }
+
   nav{
     .navbar-nav{
       .nav-item{
@@ -75,6 +85,7 @@
     position:absolute;
     width:80px;
     .plus{
+      max-width: 40px;
       &:hover{
         cursor: pointer;
       }

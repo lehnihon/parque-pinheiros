@@ -54,7 +54,7 @@
           <div class="owl-theme owl-produtos owl-carousel">
             <article>
               <a href="#">
-                <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/jazigo.png"; ?>"/>
+                <img class="img-fluid" style="max-height:120px" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/jazigo.png"; ?>"/>
                 <h5>Jazigo Standart</h5>
                 <p class="post-cat">Jazigo</p>
                 <p class="preco">R$256,00</p>
@@ -62,7 +62,7 @@
             </article>
             <article>
               <a href="#">
-                <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/jazigo.png"; ?>"/>
+                <img class="img-fluid" style="max-height:120px" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/jazigo_novo.jpeg"; ?>"/>
                 <h5>Jazigo Standart</h5>
                 <p class="post-cat">Jazigo</p>
                 <p class="preco">R$256,00</p>
@@ -70,7 +70,7 @@
             </article>
             <article>
               <a href="#">
-                <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/jazigo.png"; ?>"/>
+                <img class="img-fluid" style="max-height:120px" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/jazigo.png"; ?>"/>
                 <h5>Jazigo Standart</h5>
                 <p class="post-cat">Jazigo</p>
                 <p class="preco">R$256,00</p>

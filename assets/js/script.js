@@ -1,4 +1,15 @@
 (function($) {
+    var offset = $('.navbar').offset().top;
+    var $meuMenu = $('.navbar'); // guardar o elemento na memoria para melhorar performance
+    $(document).on('scroll', function () {
+
+        if (offset <= $(window).scrollTop()-100) {
+            $meuMenu.addClass('navbar-fixed');
+        } else {
+            $meuMenu.removeClass('navbar-fixed');
+        }
+    });
+
     var localhost = $('#localhost').val();
     $('.plus').on('click',function(){
         if(!$(this).parent().find('.box-local').is(':visible')){

@@ -70,6 +70,8 @@
        article{
            text-align:center;
            img{
+               max-width:150px;
+               margin:0 auto;
                margin-bottom:1rem;
                &:hover{
                     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */

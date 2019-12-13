@@ -9950,6 +9950,21 @@ h1, h2, h3, h4, h5 {
   color: #ce6b03;
 }
 
+body {
+  position: relative;
+}
+
+body .social-media {
+  position: fixed;
+  right: 0;
+  top: 35%;
+  z-index: 100;
+}
+
+body .social-media a {
+  display: block;
+}
+
 .menu-hamb {
   display: inline-block;
   cursor: pointer;
@@ -10047,6 +10062,16 @@ h1, h2, h3, h4, h5 {
   max-width: 300px;
 }
 
+#header .navbar-fixed {
+  background-color: #FFF;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  top: 0;
+  border-width: 0 0 1px;
+}
+
 #header nav .navbar-nav .nav-item .nav-link {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -10114,6 +10139,10 @@ h1, h2, h3, h4, h5 {
 #header .local {
   position: absolute;
   width: 80px;
+}
+
+#header .local .plus {
+  max-width: 40px;
 }
 
 #header .local .plus:hover {
@@ -10289,6 +10318,8 @@ h1, h2, h3, h4, h5 {
 }
 
 #content .home-produtos article img {
+  max-width: 150px;
+  margin: 0 auto;
   margin-bottom: 1rem;
 }
 
